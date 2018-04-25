@@ -1,0 +1,10 @@
+/home/bogdan/Prog/workspaces/workspace/McWebServiceWeb/src/main/java/com/bodyash/minecraft/tomcatweb/web/pages/home/HomePage.java
+/home/bogdan/Prog/workspaces/workspace/McWebServiceWeb/src/main/java/com/bodyash/minecraft/tomcatweb/web/pages/BasePage.java
+/home/bogdan/Prog/workspaces/workspace/McWebServiceWeb/src/main/java/com/bodyash/minecraft/tomcatweb/web/ApplicationConfig.java
+/home/bogdan/Prog/workspaces/workspace/McWebServiceWeb/src/main/java/com/bodyash/minecraft/tomcatweb/web/security/WicketWebSecurityAdapterConfig.java
+/home/bogdan/Prog/workspaces/workspace/McWebServiceWeb/src/main/java/com/bodyash/minecraft/tomcatweb/web/WicketWebApplicationInitializer.java
+/home/bogdan/Prog/workspaces/workspace/McWebServiceWeb/src/main/java/com/bodyash/minecraft/tomcatweb/web/beans/ExternalPropertiesFileConfig.java
+/home/bogdan/Prog/workspaces/workspace/McWebServiceWeb/src/main/java/com/bodyash/minecraft/tomcatweb/web/MyFilter.java
+/home/bogdan/Prog/workspaces/workspace/McWebServiceWeb/src/main/java/com/bodyash/minecraft/tomcatweb/web/service/MinecraftUserDetailService.java
+/home/bogdan/Prog/workspaces/workspace/McWebServiceWeb/src/main/java/com/bodyash/minecraft/tomcatweb/web/beans/McWebSession.java
+/home/bogdan/Prog/workspaces/workspace/McWebServiceWeb/src/main/java/com/bodyash/minecraft/tomcatweb/web/pages/login/LoginPage.java

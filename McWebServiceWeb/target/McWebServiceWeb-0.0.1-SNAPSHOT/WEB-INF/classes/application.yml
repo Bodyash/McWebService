@@ -1,0 +1,20 @@
+security:
+  basic:
+    enabled: true
+wicket:
+  stuff:
+    datastore:
+      hazelcast:
+        enabled: false
+  core:
+    resourcesettings:
+      packageresourceguard:
+        pattern:
+        - +*.map
+server:
+  compression:
+    enabled: true
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
