@@ -1,11 +1,15 @@
 package com.bodyash.minecraft.tomcatweb.web.beans;
 
-import org.apache.wicket.authroles.authentication.AbstractAuthenticatedWebSession;
 import org.apache.wicket.authroles.authentication.AuthenticatedWebSession;
 import org.apache.wicket.authroles.authorization.strategies.role.Roles;
 import org.apache.wicket.request.Request;
 
 public class McWebSession extends AuthenticatedWebSession {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 
 	public McWebSession(Request request) {
 		super(request);

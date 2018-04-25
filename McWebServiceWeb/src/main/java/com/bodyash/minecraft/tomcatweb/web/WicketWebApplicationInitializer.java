@@ -8,7 +8,10 @@ import org.apache.wicket.RuntimeConfigurationType;
 import org.apache.wicket.authroles.authentication.AbstractAuthenticatedWebSession;
 import org.apache.wicket.authroles.authentication.AuthenticatedWebApplication;
 import org.apache.wicket.markup.html.WebPage;
+import org.apache.wicket.request.IRequestHandler;
 import org.apache.wicket.request.IRequestMapper;
+import org.apache.wicket.request.cycle.IRequestCycleListener;
+import org.apache.wicket.request.cycle.RequestCycle;
 import org.apache.wicket.spring.injection.annot.SpringComponentInjector;
 import org.bukkit.Bukkit;
 import org.springframework.context.annotation.ComponentScan;
@@ -49,6 +52,13 @@ public class WicketWebApplicationInitializer extends AuthenticatedWebApplication
 		getFrameworkSettings().setSerializer(serFast2);
 		//mounts
 		initDefaultPageMounts();
+		getRequestCycleListeners().add(new IRequestCycleListener() {
+			@Override
+			public IRequestHandler onException(RequestCycle cycle, Exception ex) {
+				Bukkit.getLogger().log(Level.SEVERE, ex.getMessage());
+				return IRequestCycleListener.super.onException(cycle, ex);
+			}
+		});
 		//init webapp
 		super.init();
 	}
